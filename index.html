@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="logo">Fashion Studio</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#bags">Bags</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Simple and classy</h2>
+            <h1>Perfect <span>way of</span> styling</h1>
+            <p>Well designed and good buying collection we bring out for your that fulfill your demand of fashion.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="img2.jfif" height="450", width="300">
+        </div>
+    </section>
+
+<section class="collection" id="collection">
+    <h2>Shop By Category</h2>
+    <div class="gallery-container">
+        <button id="prev" class="nav-btn" onclick="navigate(-1)">&#9664;</button> 
+        <div class="products">
+            <div class="product-item">
+                <img src="pic2.jpg" alt="Product 1">
+                <h3>STITCHED</h3>
+                <p>4,500 PKR</p>
+            </div>
+            <div class="product-item">
+                <img src="pic1.jpg" alt="Product 2">
+                <h3>UNSTITCHED</h3>
+                <p>3,000 PKR</p>
+            </div>
+            <div class="product-item">
+                <img src="pic3.jpeg" alt="Product 3">
+                <h3>Frock Suit</h3>
+                <p>9,000 PKR</p>
+            </div>
+            <div class="product-item">
+                <img src="pic4.jpg" alt="Product 3">
+                <h3>Casual Jumpsuit</h3>
+                <p>6,000 PKR</p>
+        </div>
+        <div class="product-item">
+            <img src="pic5.jpg" alt="Product 3">
+            <h3>Business Outfits</h3>
+            <p>7,500 PKR</p></div>
+            <div class="product-item">
+                <img src="pic6.jpg" alt="Product 3">
+                <h3>Casual Blouse</h3>
+                <p>5,000 PKR</p></div>
+        </div>
+        <button id="next" class="nav-btn" onclick="navigate(1)">&#9654;</button> 
+    </div>
+</section>
+
+<div class="container">
+    <section class="bags" id="bags"></section>
+    <h1>LADIES BAGS</h1>
+    <div class="bag-categories">
+        <div class="bag-item">
+            <img src="bag1.jpg" alt="Hand Bags">
+            <p>HAND BAGS</p>
+        </div>
+        <div class="bag-item">
+            <img src="bag2.avif" alt="Tote Bags">
+            <p>TOTE BAGS</p>
+        </div>
+        <div class="bag-item">
+            <img src="bag3.jfif" alt="Cross Body Bags">
+            <p>CROSS BODY BAGS</p>
+        </div>
+        <div class="bag-item">
+            <img src="bag4.jpg" alt="Wallets">
+            <p>WALLETS</p>
+        </div>
+    </div>
+</div>
+
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Contact us for more information about our products and services.</p>
+        <a href="mailto:info@fashionstudio.com" class="btn">Email Us</a>
+    </section>
+
+    <footer>
+        <p> 2024 Fashion Studio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
